@@ -6,6 +6,7 @@ import config from './config.js'
 export default defineConfig({
   build: {
     assetsDir: '.',
+    minify: false,
     rollupOptions: {
       output: {
         chunkFileNames: 'model-[hash].js'
